@@ -3,7 +3,16 @@ entries:
   software-engineering-blog:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-10T05:52:27.197118906Z
+    created: 2019-01-10T06:15:21.465409678Z
+    description: My blog for software engineering
+    digest: ca9859f7331a1f32c358121d1a7862bcd445137a3f83fa3f146897223c58206b
+    name: software-engineering-blog
+    urls:
+    - software-engineering-blog-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-01-10T06:15:21.464545259Z
     description: My blog for software engineering
     digest: d9bcc9b111b2cc735c9093e9862f14f66bc8bbd4a1196a873ccc7df9df423d61
     name: software-engineering-blog
@@ -12,11 +21,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-01-10T05:52:27.196796163Z
+    created: 2019-01-10T06:15:21.464201208Z
     description: My blog for software engineering
     digest: f3a1c85867b2dadca5bcedbfdd762ed98788e29a98199dab6e3cd252dfecb11d
     name: software-engineering-blog
     urls:
     - software-engineering-blog-0.1.0.tgz
     version: 0.1.0
-generated: 2019-01-10T05:52:27.196271978Z
+generated: 2019-01-10T06:15:21.463670255Z
