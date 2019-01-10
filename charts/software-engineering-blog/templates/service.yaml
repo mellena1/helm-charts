@@ -15,5 +15,5 @@ spec:
       protocol: TCP
       name: http
   selector:
-          app: {{ template "software-engineering-blog.name" . }}
-      release: {{ .Release.Name }}
+    app: {{ template "software-engineering-blog.name" . }}
+    release: {{ .Release.Name }}
