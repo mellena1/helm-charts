@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "software-engineering-blog.fullname" . }}
+  labels:
+    app: {{ template "software-engineering-blog.name" . }}
+    chart: {{ template "software-engineering-blog.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.service.port }}
+      targetPort: http
+      protocol: TCP
+      name: http
+  selector:
+          app: {{ template "software-engineering-blog.name" . }}
+      release: {{ .Release.Name }}

@@ -1,0 +1,13 @@
+kind: pipeline
+name: default
+
+workspace:
+  base: /tmp
+  path: "."
+
+steps:
+- name: Deploy-helm-charts
+  image: mellena1/drone-helm-gh-pages-deploy
+  settings:
+    ssh_key:
+      from_secret: key

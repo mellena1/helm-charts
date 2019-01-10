@@ -1,0 +1,18 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "software-engineering-blog.fullname" . }}-test-connection"
+  labels:
+    app: {{ template "software-engineering-blog.name" . }}
+    chart: {{ template "software-engineering-blog.chart" . }}
+    release: {{ .Release.Name }}
+    heritage: {{ .Release.Service }}
+  annotations:
+    "helm.sh/hook": test-success
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args:  ['{{ include "software-engineering-blog.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
