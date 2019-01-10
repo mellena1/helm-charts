@@ -7,7 +7,7 @@ workspace:
 
 steps:
 - name: Deploy-helm-charts
-  image: mellena1/drone-helm-gh-pages-deploy
+  image: mellena1/drone-helm-gh-pages-deploy:0.0.1
   pull: always
   settings:
     ssh_key:
