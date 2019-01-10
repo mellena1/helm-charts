@@ -12,3 +12,4 @@ steps:
   settings:
     ssh_key:
       from_secret: key
+    push: false
