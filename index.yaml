@@ -3,7 +3,25 @@ entries:
   kube-plex:
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: 2019-10-27T04:16:24.109931151Z
+    created: 2019-12-07T01:27:33.95660268Z
+    description: Plex Media Server
+    digest: 2a687280b7a856af6022e94cd009e9f53d90a1438716fa7935a2cec1d51718e3
+    home: https://plex.tv/
+    icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
+    keywords:
+    - plex
+    maintainers:
+    - name: munnerz
+    name: kube-plex
+    sources:
+    - https://github.com/munnerz/kube-plex
+    - https://hub.docker.com/r/plexinc/pms-docker/
+    urls:
+    - kube-plex-0.3.1.tgz
+    version: 0.3.1
+  - apiVersion: v1
+    appVersion: 1.16.0.1226-7eb2c8f6f
+    created: 2019-12-07T01:27:33.956310318Z
     description: Plex Media Server
     digest: 345d7f81fd2a2147f5bf0eea78e9cec5c87f7ccaa9536bb4b10457db4005d4aa
     home: https://plex.tv/
@@ -21,7 +39,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: 2019-10-27T04:16:24.10956259Z
+    created: 2019-12-07T01:27:33.956024563Z
     description: Plex Media Server
     digest: 9751b3995eae64e7c20a002e4df290c4a92179d92ef7a37fa59d083fae87c4d4
     home: https://plex.tv/
@@ -40,7 +58,7 @@ entries:
   software-engineering-blog:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-10-27T04:16:24.110630387Z
+    created: 2019-12-07T01:27:33.95708994Z
     description: My blog for software engineering
     digest: ca9859f7331a1f32c358121d1a7862bcd445137a3f83fa3f146897223c58206b
     name: software-engineering-blog
@@ -49,7 +67,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-10-27T04:16:24.110412531Z
+    created: 2019-12-07T01:27:33.956924744Z
     description: My blog for software engineering
     digest: d9bcc9b111b2cc735c9093e9862f14f66bc8bbd4a1196a873ccc7df9df423d61
     name: software-engineering-blog
@@ -58,11 +76,11 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-10-27T04:16:24.110198883Z
+    created: 2019-12-07T01:27:33.956769628Z
     description: My blog for software engineering
     digest: f3a1c85867b2dadca5bcedbfdd762ed98788e29a98199dab6e3cd252dfecb11d
     name: software-engineering-blog
     urls:
     - software-engineering-blog-0.1.0.tgz
     version: 0.1.0
-generated: 2019-10-27T04:16:24.108932206Z
+generated: 2019-12-07T01:27:33.955611339Z
