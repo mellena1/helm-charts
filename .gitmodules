@@ -1,0 +1,3 @@
+[submodule "charts/k8s-supporting-folding-at-home"]
+	path = charts/k8s-supporting-folding-at-home
+	url = https://github.com/mellena1/k8s-supporting-folding-at-home
