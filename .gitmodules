@@ -1,3 +1,6 @@
 [submodule "charts/k8s-supporting-folding-at-home"]
 	path = charts/k8s-supporting-folding-at-home
 	url = https://github.com/mellena1/k8s-supporting-folding-at-home
+[submodule "charts/kube-plex"]
+	path = charts/kube-plex
+	url = https://github.com/mellena1/kube-plex
