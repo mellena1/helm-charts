@@ -6,8 +6,6 @@ steps:
   image: alpine/git
   commands:
   - git submodule update --init --recursive --remote
-  - ls charts
-  - ls charts/k8s-supporting-folding-at-home
 
 - name: Deploy-helm-charts
   image: mellena1/drone-helm-gh-pages-deploy:0.1.1
