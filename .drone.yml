@@ -6,6 +6,7 @@ steps:
   image: alpine/git
   commands:
   - git submodule update --recursive --remote
+  - ls charts
 
 - name: Deploy-helm-charts
   image: mellena1/drone-helm-gh-pages-deploy:0.1.1
