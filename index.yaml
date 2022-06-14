@@ -3,7 +3,7 @@ entries:
   k8s-supporting-folding-at-home:
   - apiVersion: v2
     appVersion: latest
-    created: 2022-06-14T23:21:02.745119609Z
+    created: 2022-06-14T23:28:36.956323796Z
     description: A Helm chart for supporting folding at home
     digest: f9e507638aca28c39c577c11d93a82b0c16e40bbdd73c2ffcac12e339d372d59
     name: k8s-supporting-folding-at-home
@@ -13,7 +13,25 @@ entries:
   kube-plex:
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: 2022-06-14T23:21:02.746777137Z
+    created: 2022-06-14T23:28:36.95753658Z
+    description: Plex Media Server
+    digest: 3523d78ddc84b3ca03d005b44aea778a854eac7a1d61d61f00eab84c9dcf22cb
+    home: https://plex.tv/
+    icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
+    keywords:
+    - plex
+    maintainers:
+    - name: munnerz
+    name: kube-plex
+    sources:
+    - https://github.com/munnerz/kube-plex
+    - https://hub.docker.com/r/plexinc/pms-docker/
+    urls:
+    - kube-plex-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v1
+    appVersion: 1.16.0.1226-7eb2c8f6f
+    created: 2022-06-14T23:28:36.957331643Z
     description: Plex Media Server
     digest: 8a715909c126c93bc077efded7f94514e8d6d70177013cc694bb7e2b9a644f75
     home: https://plex.tv/
@@ -31,7 +49,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: 2022-06-14T23:21:02.746433881Z
+    created: 2022-06-14T23:28:36.957125255Z
     description: Plex Media Server
     digest: 127e7a118a88f46df76f4d389fa7da6b897d51a4b2e39d63aadff5b9a993fca6
     home: https://plex.tv/
@@ -49,7 +67,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: 2022-06-14T23:21:02.746091116Z
+    created: 2022-06-14T23:28:36.956928348Z
     description: Plex Media Server
     digest: 2a687280b7a856af6022e94cd009e9f53d90a1438716fa7935a2cec1d51718e3
     home: https://plex.tv/
@@ -67,7 +85,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: 2022-06-14T23:21:02.74577417Z
+    created: 2022-06-14T23:28:36.956733741Z
     description: Plex Media Server
     digest: 345d7f81fd2a2147f5bf0eea78e9cec5c87f7ccaa9536bb4b10457db4005d4aa
     home: https://plex.tv/
@@ -85,7 +103,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: 2022-06-14T23:21:02.745462954Z
+    created: 2022-06-14T23:28:36.956529823Z
     description: Plex Media Server
     digest: 9751b3995eae64e7c20a002e4df290c4a92179d92ef7a37fa59d083fae87c4d4
     home: https://plex.tv/
@@ -104,7 +122,7 @@ entries:
   software-engineering-blog:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2022-06-14T23:21:02.747327999Z
+    created: 2022-06-14T23:28:36.957874825Z
     description: My blog for software engineering
     digest: ca9859f7331a1f32c358121d1a7862bcd445137a3f83fa3f146897223c58206b
     name: software-engineering-blog
@@ -113,7 +131,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2022-06-14T23:21:02.747148222Z
+    created: 2022-06-14T23:28:36.957769907Z
     description: My blog for software engineering
     digest: d9bcc9b111b2cc735c9093e9862f14f66bc8bbd4a1196a873ccc7df9df423d61
     name: software-engineering-blog
@@ -122,7 +140,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2022-06-14T23:21:02.746963044Z
+    created: 2022-06-14T23:28:36.957659358Z
     description: My blog for software engineering
     digest: f3a1c85867b2dadca5bcedbfdd762ed98788e29a98199dab6e3cd252dfecb11d
     name: software-engineering-blog
@@ -132,7 +150,7 @@ entries:
   std-webapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: 2022-06-14T23:21:02.74876914Z
+    created: 2022-06-14T23:28:36.958324719Z
     description: A really basic chart to deploy apps that only need a deployment,
       service, and ingress.
     digest: 26116b3bf11132b50c2628cf82151a95153fdd464dce1ffe146ea7dd42d975b0
@@ -142,7 +160,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: 2022-06-14T23:21:02.747922812Z
+    created: 2022-06-14T23:28:36.958210071Z
     description: A really basic chart to deploy apps that only need a deployment,
       service, and ingress.
     digest: c7912e9561a933b48a18b785dd28c4c189faa89303799d1eef809c75b4d777eb
@@ -152,7 +170,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: 2022-06-14T23:21:02.747717504Z
+    created: 2022-06-14T23:28:36.958097782Z
     description: A really basic chart to deploy apps that only need a deployment,
       service, and ingress.
     digest: ad7a55c82b2d1568600a4b26bde166385f2bf117908c9ac29715794c35936710
@@ -162,7 +180,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: 2022-06-14T23:21:02.747527307Z
+    created: 2022-06-14T23:28:36.957986924Z
     description: A really basic chart to deploy apps that only need a deployment,
       service, and ingress.
     digest: 38a35e7d8f80f93b295228f9c8683bcc77b34f9ce4e67708c62f7f880dc04433
@@ -170,4 +188,4 @@ entries:
     urls:
     - std-webapp-0.1.0.tgz
     version: 0.1.0
-generated: 2022-06-14T23:21:02.744796933Z
+generated: 2022-06-14T23:28:36.956137209Z
