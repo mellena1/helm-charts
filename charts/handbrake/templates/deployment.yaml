@@ -64,27 +64,27 @@ spec:
         {{- toYaml . | nindent 8 }}
       {{- end }}
       volumes:
-      - name: config
-        persistentVolumeClaim:
-{{- if .Values.persistence.config.claimName }}
-          claimName: "{{ .Values.persistence.config.claimName }}"
-{{- else }}
-          claimName: "{{ template "fullname" . }}-config"
-{{- end }}
-      - name: input
-        persistentVolumeClaim:
-{{- if .Values.persistence.input.claimName }}
-          claimName: "{{ .Values.persistence.input.claimName }}"
-{{- else }}
-          claimName: "{{ template "fullname" . }}-input"
-{{- end }}
+        - name: config
+          persistentVolumeClaim:
+          {{- if .Values.persistence.config.claimName }}
+            claimName: "{{ .Values.persistence.config.claimName }}"
+          {{- else }}
+            claimName: "{{ template "handbrake.fullname" . }}-config"
+          {{- end }}
+        - name: input
+          persistentVolumeClaim:
+          {{- if .Values.persistence.input.claimName }}
+            claimName: "{{ .Values.persistence.input.claimName }}"
+          {{- else }}
+            claimName: "{{ template "handbrake.fullname" . }}-input"
+          {{- end }}
         - name: output
-        persistentVolumeClaim:
-{{- if .Values.persistence.output.claimName }}
-          claimName: "{{ .Values.persistence.output.claimName }}"
-{{- else }}
-          claimName: "{{ template "fullname" . }}-output"
-{{- end }}
+          persistentVolumeClaim:
+          {{- if .Values.persistence.output.claimName }}
+            claimName: "{{ .Values.persistence.output.claimName }}"
+          {{- else }}
+            claimName: "{{ template "handbrake.fullname" . }}-output"
+          {{- end }}
       {{- with .Values.affinity }}
       affinity:
         {{- toYaml . | nindent 8 }}
