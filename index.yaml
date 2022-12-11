@@ -3,7 +3,7 @@ entries:
   handbrake:
   - apiVersion: v2
     appVersion: 1.25.1
-    created: "2022-12-08T04:50:03.475266361Z"
+    created: "2022-12-11T18:58:20.998802531Z"
     description: A Helm chart for Kubernetes
     digest: 9c7ad0d1ee1ecb7635a06c8018bd87f08aa9a148382b2483530586023d34fe2e
     name: handbrake
@@ -12,7 +12,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 1.25.1
-    created: "2022-12-08T04:50:03.475073734Z"
+    created: "2022-12-11T18:58:20.998544524Z"
     description: A Helm chart for Kubernetes
     digest: 1f9f3259c1c9c239c9aebcd190fe73c9c1f66041e8e78eb916f66eec0202e647
     name: handbrake
@@ -21,7 +21,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.25.1
-    created: "2022-12-08T04:50:03.474875177Z"
+    created: "2022-12-11T18:58:20.998248308Z"
     description: A Helm chart for Kubernetes
     digest: 1999c7d6bcc00861644c1ae4a102477d5c3a455276fc9cb12148c81ace547c58
     name: handbrake
@@ -31,7 +31,7 @@ entries:
   k8s-supporting-folding-at-home:
   - apiVersion: v2
     appVersion: latest
-    created: "2022-12-08T04:50:03.475445719Z"
+    created: "2022-12-11T18:58:20.998982879Z"
     description: A Helm chart for supporting folding at home
     digest: f9e507638aca28c39c577c11d93a82b0c16e40bbdd73c2ffcac12e339d372d59
     name: k8s-supporting-folding-at-home
@@ -41,7 +41,25 @@ entries:
   kube-plex:
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2022-12-08T04:50:03.478034609Z"
+    created: "2022-12-11T18:58:21.007727943Z"
+    description: Plex Media Server
+    digest: 4b37094f14875bde32081dc41e9d4fd10d8b617a8c050ada29158e25c8ccfd4e
+    home: https://plex.tv/
+    icon: https://www.plex.tv/wp-content/uploads/2018/01/pmp-icon-1.png
+    keywords:
+    - plex
+    maintainers:
+    - name: munnerz
+    name: kube-plex
+    sources:
+    - https://github.com/munnerz/kube-plex
+    - https://hub.docker.com/r/plexinc/pms-docker/
+    urls:
+    - kube-plex-0.5.1.tgz
+    version: 0.5.1
+  - apiVersion: v1
+    appVersion: 1.16.0.1226-7eb2c8f6f
+    created: "2022-12-11T18:58:21.007296728Z"
     description: Plex Media Server
     digest: aa87e522e219b42943f768be907b4d7bf9335f0714b797d62034d9c3413374b8
     home: https://plex.tv/
@@ -59,7 +77,7 @@ entries:
     version: 0.5.0
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2022-12-08T04:50:03.477704524Z"
+    created: "2022-12-11T18:58:21.006808684Z"
     description: Plex Media Server
     digest: 3523d78ddc84b3ca03d005b44aea778a854eac7a1d61d61f00eab84c9dcf22cb
     home: https://plex.tv/
@@ -77,7 +95,7 @@ entries:
     version: 0.4.1
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2022-12-08T04:50:03.47736639Z"
+    created: "2022-12-11T18:58:21.000494961Z"
     description: Plex Media Server
     digest: 8a715909c126c93bc077efded7f94514e8d6d70177013cc694bb7e2b9a644f75
     home: https://plex.tv/
@@ -95,7 +113,7 @@ entries:
     version: 0.4.0
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2022-12-08T04:50:03.47667487Z"
+    created: "2022-12-11T18:58:21.000166825Z"
     description: Plex Media Server
     digest: 127e7a118a88f46df76f4d389fa7da6b897d51a4b2e39d63aadff5b9a993fca6
     home: https://plex.tv/
@@ -113,7 +131,7 @@ entries:
     version: 0.3.2
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2022-12-08T04:50:03.476341355Z"
+    created: "2022-12-11T18:58:20.999866759Z"
     description: Plex Media Server
     digest: 2a687280b7a856af6022e94cd009e9f53d90a1438716fa7935a2cec1d51718e3
     home: https://plex.tv/
@@ -131,7 +149,7 @@ entries:
     version: 0.3.1
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2022-12-08T04:50:03.47602415Z"
+    created: "2022-12-11T18:58:20.999579682Z"
     description: Plex Media Server
     digest: 345d7f81fd2a2147f5bf0eea78e9cec5c87f7ccaa9536bb4b10457db4005d4aa
     home: https://plex.tv/
@@ -149,7 +167,7 @@ entries:
     version: 0.3.0
   - apiVersion: v1
     appVersion: 1.16.0.1226-7eb2c8f6f
-    created: "2022-12-08T04:50:03.475729324Z"
+    created: "2022-12-11T18:58:20.999278476Z"
     description: Plex Media Server
     digest: 9751b3995eae64e7c20a002e4df290c4a92179d92ef7a37fa59d083fae87c4d4
     home: https://plex.tv/
@@ -168,7 +186,7 @@ entries:
   makemkv:
   - apiVersion: v2
     appVersion: v1.22.2
-    created: "2022-12-08T04:50:03.478426663Z"
+    created: "2022-12-11T18:58:21.008108808Z"
     description: Run makemkv in a web server
     digest: 823d9d323bf3cf50817bfe7dfc74e7303707bbea728c43e12e0ca18fb3ece6cd
     name: makemkv
@@ -178,7 +196,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: v1.22.2
-    created: "2022-12-08T04:50:03.478230776Z"
+    created: "2022-12-11T18:58:21.00792425Z"
     description: Run makemkv in a web server
     digest: 11df0d58513b19eb3529c2657a1de2a06c4ac5d2e02244ee3bcd51da698a4de0
     name: makemkv
@@ -189,7 +207,7 @@ entries:
   software-engineering-blog:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-12-08T04:50:03.478878537Z"
+    created: "2022-12-11T18:58:21.008546883Z"
     description: My blog for software engineering
     digest: ca9859f7331a1f32c358121d1a7862bcd445137a3f83fa3f146897223c58206b
     name: software-engineering-blog
@@ -198,7 +216,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-12-08T04:50:03.478730799Z"
+    created: "2022-12-11T18:58:21.008402475Z"
     description: My blog for software engineering
     digest: d9bcc9b111b2cc735c9093e9862f14f66bc8bbd4a1196a873ccc7df9df423d61
     name: software-engineering-blog
@@ -207,7 +225,7 @@ entries:
     version: 0.1.1
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2022-12-08T04:50:03.478582081Z"
+    created: "2022-12-11T18:58:21.008257526Z"
     description: My blog for software engineering
     digest: f3a1c85867b2dadca5bcedbfdd762ed98788e29a98199dab6e3cd252dfecb11d
     name: software-engineering-blog
@@ -217,7 +235,7 @@ entries:
   std-webapp:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-08T04:50:03.479695394Z"
+    created: "2022-12-11T18:58:21.009361633Z"
     description: A really basic chart to deploy apps that only need a deployment,
       service, and ingress.
     digest: 028e24eb8a5b4f075b97d0a37304ca647a80b7b6e5246e02030122013c27af9b
@@ -227,7 +245,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-08T04:50:03.479521577Z"
+    created: "2022-12-11T18:58:21.009184805Z"
     description: A really basic chart to deploy apps that only need a deployment,
       service, and ingress.
     digest: 26116b3bf11132b50c2628cf82151a95153fdd464dce1ffe146ea7dd42d975b0
@@ -237,7 +255,7 @@ entries:
     version: 0.2.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-08T04:50:03.479360859Z"
+    created: "2022-12-11T18:58:21.009021817Z"
     description: A really basic chart to deploy apps that only need a deployment,
       service, and ingress.
     digest: c7912e9561a933b48a18b785dd28c4c189faa89303799d1eef809c75b4d777eb
@@ -247,7 +265,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-08T04:50:03.479200462Z"
+    created: "2022-12-11T18:58:21.008858659Z"
     description: A really basic chart to deploy apps that only need a deployment,
       service, and ingress.
     digest: ad7a55c82b2d1568600a4b26bde166385f2bf117908c9ac29715794c35936710
@@ -257,7 +275,7 @@ entries:
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-12-08T04:50:03.479041424Z"
+    created: "2022-12-11T18:58:21.008704521Z"
     description: A really basic chart to deploy apps that only need a deployment,
       service, and ingress.
     digest: 38a35e7d8f80f93b295228f9c8683bcc77b34f9ce4e67708c62f7f880dc04433
@@ -265,4 +283,4 @@ entries:
     urls:
     - std-webapp-0.1.0.tgz
     version: 0.1.0
-generated: "2022-12-08T04:50:03.474579952Z"
+generated: "2022-12-11T18:58:20.997833093Z"
